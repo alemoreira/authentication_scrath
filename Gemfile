@@ -18,6 +18,8 @@ end
 
 gem 'jquery-rails', '3.1.0'
 
+gem 'rails_12factor', '0.0.2', group: :production
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
