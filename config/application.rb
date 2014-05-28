@@ -68,5 +68,8 @@ module AuthenticationScrath
     # config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
     # rails console
     # Rails.application.config.assets.paths
+
+    # Heroku
+    config.assets.initialize_on_precompile = false
   end
 end
