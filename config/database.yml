@@ -2,7 +2,7 @@ development:
   adapter: postgresql
   encoding: utf-8
   host: localhost
-  database: auth_scrath
+  database: auth_scrath_develop
   pool: 5
   username:
   password:
@@ -19,7 +19,7 @@ test:
 production:
   adapter: postgresql
   encoding: utf-8
-  database: auth_scrath_develop
+  database: auth_scrath
   pool: 5
   username:
   password:
